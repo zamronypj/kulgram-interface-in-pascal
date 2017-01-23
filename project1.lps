@@ -8,11 +8,10 @@
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="project1"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
         <TopLine Value="46"/>
-        <CursorPos X="62" Y="61"/>
+        <CursorPos X="1" Y="57"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -127,10 +126,11 @@
         <Filename Value="interfaces/drawable.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="drawable"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="12"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="78" Y="17"/>
+        <CursorPos X="27" Y="19"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit11>
@@ -141,7 +141,7 @@
         <EditorIndex Value="5"/>
         <WindowIndex Value="0"/>
         <TopLine Value="7"/>
-        <CursorPos X="25" Y="29"/>
+        <CursorPos X="25" Y="27"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit12>
@@ -152,7 +152,7 @@
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="7" Y="8"/>
+        <CursorPos X="43" Y="20"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit13>
