@@ -27,6 +27,7 @@ end;
 destructor TCanvasObject.Destroy();
 begin
   drawableObject := nil;
+  inherited Destroy();
 end;
 
 procedure TCanvasObject.drawCanvas();
