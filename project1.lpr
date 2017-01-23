@@ -9,7 +9,7 @@ uses
   Classes, SysUtils, CustApp,
 
   core, biological, mechanical, human, animal, robot,
-  vehicle, industrialrobot, painterrobot, drawable, canvasobject;
+  vehicle, industrialrobot, painterrobot, drawable, canvasobject, strangeobject;
 
 type
 
@@ -55,7 +55,8 @@ procedure TMyApplication.createObjects();
 var drawableObject : IDrawable;
 begin
   drawableObject := TPainterRobot.Create();
-  /drawableObject := THuman.Create();
+  //drawableObject := THuman.Create();
+  //drawableObject := TStrangeObject.Create();
   canvasObject := TCanvasObject.Create(drawableObject);
 end;
 

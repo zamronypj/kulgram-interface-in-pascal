@@ -13,6 +13,7 @@ type
       drawableObject : IDrawable;
    public
       constructor Create(drawableObj : IDrawable);
+      destructor Destroy(); override;
       procedure drawCanvas();
    end;
 
@@ -21,6 +22,11 @@ implementation
 constructor TCanvasObject.Create(drawableObj : IDrawable);
 begin
   drawableObject := drawableObj;
+end;
+
+destructor TCanvasObject.Destroy();
+begin
+  drawableObject := nil;
 end;
 
 procedure TCanvasObject.drawCanvas();
