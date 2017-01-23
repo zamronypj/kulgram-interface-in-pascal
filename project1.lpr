@@ -6,44 +6,32 @@ uses
   {$IFDEF UNIX}{$IFDEF UseCThreads}
   cthreads,
   {$ENDIF}{$ENDIF}
-  Classes, SysUtils, CustApp, core, biological, mechanical, human, animal, robot,
-  vehicle, industrialrobot, painterrobot, drawable;
+  Classes, SysUtils, CustApp,
+
+  core, biological, mechanical, human, animal, robot,
+  vehicle, industrialrobot, painterrobot, drawable, canvasobject;
 
 type
 
   { TMyApplication }
 
   TMyApplication = class(TCustomApplication)
+  private
+    canvasObject : TCanvasObject;
+    procedure createObjects();
+    procedure destroyObjects();
   protected
     procedure DoRun; override;
   public
     constructor Create(TheOwner: TComponent); override;
     destructor Destroy; override;
-    procedure WriteHelp; virtual;
   end;
 
 { TMyApplication }
 
 procedure TMyApplication.DoRun;
-var
-  ErrorMsg: String;
 begin
-  // quick check parameters
-  ErrorMsg:=CheckOptions('h','help');
-  if ErrorMsg<>'' then begin
-    ShowException(Exception.Create(ErrorMsg));
-    Terminate;
-    Exit;
-  end;
-
-  // parse parameters
-  if HasOption('h','help') then begin
-    WriteHelp;
-    Terminate;
-    Exit;
-  end;
-
-  writeLn('fux');
+  canvasObject.drawCanvas();
 
   // stop program loop
   Terminate;
@@ -53,17 +41,27 @@ constructor TMyApplication.Create(TheOwner: TComponent);
 begin
   inherited Create(TheOwner);
   StopOnException:=True;
+
+  createObjects();
 end;
 
 destructor TMyApplication.Destroy;
 begin
+  destroyObjects();
   inherited Destroy;
 end;
 
-procedure TMyApplication.WriteHelp;
+procedure TMyApplication.createObjects();
+var drawableObject : IDrawable;
 begin
-  { add your help code here }
-  writeln('Usage: ',ExeName,' -h');
+  drawableObject := TPainterRobot.Create();
+  //drawableObject := THuman.Create();
+  canvasObject := TCanvasObject.Create(drawableObject);
+end;
+
+procedure TMyApplication.destroyObjects();
+begin
+  canvasObject.Free();
 end;
 
 var

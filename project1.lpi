@@ -32,7 +32,7 @@
         <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
       </local>
     </RunParams>
-    <Units Count="11">
+    <Units Count="12">
       <Unit0>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -88,6 +88,11 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="drawable"/>
       </Unit10>
+      <Unit11>
+        <Filename Value="objects/canvasobject.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="canvasobject"/>
+      </Unit11>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

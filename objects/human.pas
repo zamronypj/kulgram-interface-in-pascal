@@ -9,10 +9,15 @@ uses
 
 type
    THuman = class(TBiologicalObject, IDrawable)
-
+      procedure draw();
    end;
 
 implementation
+
+procedure THuman.draw();
+begin
+  writeln('Human draws');
+end;
 
 end.
 
