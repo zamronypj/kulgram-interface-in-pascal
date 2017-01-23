@@ -10,7 +10,8 @@ uses
 type
 
     TBiologicalObject = class(TCoreObject)
-
+    public
+        procedure breathe(); virtual; abstract;
     end;
 
 implementation

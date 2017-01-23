@@ -8,11 +8,10 @@
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="project1"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="5"/>
-        <CursorPos X="37" Y="23"/>
+        <TopLine Value="44"/>
+        <CursorPos X="54" Y="67"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -23,7 +22,7 @@
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="4" Y="11"/>
+        <CursorPos X="61" Y="13"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit1>
@@ -34,7 +33,7 @@
         <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="4" Y="8"/>
+        <CursorPos X="11" Y="13"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit2>
@@ -45,7 +44,7 @@
         <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="4" Y="8"/>
+        <CursorPos X="10" Y="13"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -56,7 +55,7 @@
         <EditorIndex Value="5"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="26" Y="19"/>
+        <CursorPos X="10" Y="12"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit4>
@@ -75,7 +74,7 @@
         <EditorIndex Value="6"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="14" Y="8"/>
+        <CursorPos X="18" Y="20"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit6>
@@ -86,7 +85,7 @@
         <EditorIndex Value="7"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="14" Y="8"/>
+        <CursorPos X="41" Y="11"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit7>
@@ -97,7 +96,7 @@
         <EditorIndex Value="8"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="14" Y="8"/>
+        <CursorPos X="35" Y="13"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit8>
@@ -105,10 +104,11 @@
         <Filename Value="objects/industrialrobot.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="industrialrobot"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="9"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="9" Y="8"/>
+        <CursorPos X="35" Y="20"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit9>
@@ -119,7 +119,7 @@
         <EditorIndex Value="10"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="31" Y="19"/>
+        <CursorPos X="10" Y="12"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit10>
@@ -140,8 +140,8 @@
         <UnitName Value="canvasobject"/>
         <EditorIndex Value="4"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="2"/>
-        <CursorPos X="32" Y="23"/>
+        <TopLine Value="1"/>
+        <CursorPos X="25" Y="28"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit12>
@@ -149,7 +149,7 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="18" HistoryIndex="17">
+    <JumpHistory Count="22" HistoryIndex="21">
       <Position1>
         <Filename Value="objects/biological.pas"/>
         <Caret Line="12" Column="43" TopLine="1"/>
@@ -222,6 +222,22 @@
         <Filename Value="project1.lpr"/>
         <Caret Line="61" Column="26" TopLine="41"/>
       </Position18>
+      <Position19>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="16" Column="24" TopLine="3"/>
+      </Position19>
+      <Position20>
+        <Filename Value="objects/mechanical.pas"/>
+        <Caret Line="13" Column="17" TopLine="1"/>
+      </Position20>
+      <Position21>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="61" Column="40" TopLine="31"/>
+      </Position21>
+      <Position22>
+        <Filename Value="objects/industrialrobot.pas"/>
+        <Caret Line="13" Column="17" TopLine="1"/>
+      </Position22>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

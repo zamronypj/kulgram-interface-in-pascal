@@ -9,7 +9,9 @@ uses
 
 type
    THuman = class(TBiologicalObject, IDrawable)
+   public
       procedure draw();
+      procedure breathe(); override;
    end;
 
 implementation
@@ -17,6 +19,11 @@ implementation
 procedure THuman.draw();
 begin
   writeln('Human draws');
+end;
+
+procedure THuman.breathe();
+begin
+  writeln('Human breathe');
 end;
 
 end.
