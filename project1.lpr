@@ -55,7 +55,7 @@ procedure TMyApplication.createObjects();
 var drawableObject : IDrawable;
 begin
   drawableObject := TPainterRobot.Create();
-  //drawableObject := THuman.Create();
+  /drawableObject := THuman.Create();
   canvasObject := TCanvasObject.Create(drawableObject);
 end;
 

@@ -8,10 +8,11 @@
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="project1"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="44"/>
-        <CursorPos X="54" Y="67"/>
+        <TopLine Value="37"/>
+        <CursorPos X="39" Y="53"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -33,7 +34,7 @@
         <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="11" Y="13"/>
+        <CursorPos X="23" Y="20"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit2>
@@ -44,7 +45,7 @@
         <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="10" Y="13"/>
+        <CursorPos X="33" Y="14"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -85,7 +86,7 @@
         <EditorIndex Value="7"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="41" Y="11"/>
+        <CursorPos X="52" Y="13"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit7>
@@ -96,7 +97,7 @@
         <EditorIndex Value="8"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="35" Y="13"/>
+        <CursorPos X="6" Y="12"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit8>
@@ -104,11 +105,10 @@
         <Filename Value="objects/industrialrobot.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="industrialrobot"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="9"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="35" Y="20"/>
+        <CursorPos X="22" Y="26"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit9>
@@ -118,8 +118,8 @@
         <UnitName Value="painterrobot"/>
         <EditorIndex Value="10"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="10" Y="12"/>
+        <TopLine Value="8"/>
+        <CursorPos X="61" Y="15"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit10>
@@ -149,7 +149,7 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="22" HistoryIndex="21">
+    <JumpHistory Count="23" HistoryIndex="22">
       <Position1>
         <Filename Value="objects/biological.pas"/>
         <Caret Line="12" Column="43" TopLine="1"/>
@@ -238,6 +238,10 @@
         <Filename Value="objects/industrialrobot.pas"/>
         <Caret Line="13" Column="17" TopLine="1"/>
       </Position22>
+      <Position23>
+        <Filename Value="objects/biological.pas"/>
+        <Caret Line="12" Column="1" TopLine="1"/>
+      </Position23>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

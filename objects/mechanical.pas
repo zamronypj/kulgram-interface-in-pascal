@@ -11,7 +11,7 @@ type
 
    TMechanicalObject = class(TCoreObject)
    public
-      procedure doMechanicalJob();virtual; abstract;
+      procedure doMechanicalTask();virtual; abstract;
    end;
 
 implementation

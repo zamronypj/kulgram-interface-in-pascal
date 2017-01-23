@@ -9,7 +9,8 @@ uses
 
 type
    TRobot = class(TMechanicalObject)
-
+   public
+      procedure doAutomateTask(); virtual;abstract;
    end;
 
 implementation

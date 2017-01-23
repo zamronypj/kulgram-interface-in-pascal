@@ -11,7 +11,8 @@ type
    TPainterRobot = class(TRobot, IDrawable)
    public
       procedure draw();
-      procedure doMechanicalJob();override;
+      procedure doMechanicalTask();override;
+      procedure doAutomateTask();override;
    end;
 
 implementation
@@ -21,7 +22,12 @@ begin
   writeln('painter robot draws');
 end;
 
-procedure TPainterRobot.doMechanicalJob();
+procedure TPainterRobot.doMechanicalTask();
+begin
+  draw();
+end;
+
+procedure TPainterRobot.doAutomateTask();
 begin
   draw();
 end;

@@ -10,14 +10,20 @@ uses
 type
    TIndustrialRobot = class(TRobot)
    public
-      procedure doMechanicalJob();override;
+      procedure doMechanicalTask();override;
+      procedure doAutomateTask(); override;
    end;
 
 implementation
 
-procedure TIndustrialRobot.doMechanicalJob();
+procedure TIndustrialRobot.doMechanicalTask();
 begin
   writeln('industrial robot builds car');
+end;
+
+procedure TIndustrialRobot.doAutomateTask();
+begin
+  doMechanicalTask();
 end;
 
 end.
