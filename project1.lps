@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="12">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="project1"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="32" Y="9"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="objects/core.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="core"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="4" Y="11"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="objects/biological.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="biological"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="4" Y="8"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="objects/mechanical.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mechanical"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="4" Y="8"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="objects/human.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="human"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="14" Y="8"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="objects/unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Unit1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="12" Y="1"/>
+        <UsageCount Value="20"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="objects/animal.pas"/>
+        <UnitName Value="animal"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="14" Y="8"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="objects/robot.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="robot"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="14" Y="8"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="objects/vehicle.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="vehicle"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="14" Y="8"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="objects/industrialrobot.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="industrialrobot"/>
+        <EditorIndex Value="8"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="9" Y="8"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="objects/painterrobot.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="painterrobot"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="9"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="15" Y="8"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="interfaces/drawable.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="drawable"/>
+        <EditorIndex Value="10"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="7" Y="12"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit11>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="9" HistoryIndex="8">
+      <Position1>
+        <Filename Value="objects/biological.pas"/>
+        <Caret Line="12" Column="43" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="objects/mechanical.pas"/>
+        <Caret Line="13" Column="6" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="objects/human.pas"/>
+        <Caret Line="8" Column="8" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="50" Column="66" TopLine="38"/>
+      </Position4>
+      <Position5>
+        <Filename Value="objects/animal.pas"/>
+        <Caret Line="12" Column="5" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="objects/robot.pas"/>
+        <Caret Line="12" Column="6" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="objects/vehicle.pas"/>
+        <Caret Line="12" Column="6" TopLine="1"/>
+      </Position7>
+      <Position8>
+        <Filename Value="objects/industrialrobot.pas"/>
+        <Caret Line="12" Column="6" TopLine="1"/>
+      </Position8>
+      <Position9>
+        <Filename Value="objects/painterrobot.pas"/>
+        <Caret Line="11" Column="51" TopLine="1"/>
+      </Position9>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
