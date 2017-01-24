@@ -5,11 +5,12 @@ unit industrialrobot;
 interface
 
 uses
-   robot;
+   robot, canrepair;
 
 type
-   TIndustrialRobot = class(TRobot)
+   TIndustrialRobot = class(TRobot, ICanRepair)
    public
+      procedure repair();
       procedure doMechanicalTask();override;
       procedure doAutomateTask(); override;
    end;
@@ -24,6 +25,11 @@ end;
 procedure TIndustrialRobot.doAutomateTask();
 begin
   doMechanicalTask();
+end;
+
+procedure TIndustrialRobot.repair();
+begin
+  writeln('industrial robot repair');
 end;
 
 end.
