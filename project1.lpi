@@ -8,7 +8,7 @@
       </Flags>
       <SessionStorage Value="InProjectDir"/>
       <MainUnit Value="0"/>
-      <Title Value="My Application"/>
+      <Title Value="Kulgram"/>
       <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
     </General>
@@ -32,7 +32,7 @@
         <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
       </local>
     </RunParams>
-    <Units Count="13">
+    <Units Count="15">
       <Unit0>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -98,12 +98,22 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="strangeobject"/>
       </Unit12>
+      <Unit13>
+        <Filename Value="interfaces/canrepair.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="canrepair"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="objects/repaircenter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="repaircenter"/>
+      </Unit14>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="project1"/>
+      <Filename Value="bin/kulgram"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>

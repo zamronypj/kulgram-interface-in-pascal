@@ -5,7 +5,7 @@ unit repaircenter;
 interface
 
 uses
-  Classes, SysUtils;
+  Classes, SysUtils, canrepair;
 
 type
    TRepairCenter = class(TObject)
@@ -24,7 +24,7 @@ begin
   repairObject := repairObj;
 end;
 
-destructor TRpairCenter.Destroy();
+destructor TRepairCenter.Destroy();
 begin
   repairObject := nil;
   inherited Destroy();
